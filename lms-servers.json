@@ -1,0 +1,352 @@
+{
+    "deployments":[
+        {
+            "name": "USQDB950",
+            "function": "deployer"
+        },
+        {
+            "name": "USNT00640",
+            "function": "worker"
+        }
+    ],
+    "remotes":
+    [
+        {
+            "name": "01.Americas",
+            "DEV": [
+
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00764"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00765"
+                }
+
+            ],
+            "QA": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00876"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00877"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00879"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00880"
+                }
+            ],
+            "PROD": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00971"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00972"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00982"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00983"
+                }
+            ]
+        },
+        {
+            "name": "02.AsiaPacific1",
+            "DEV": [
+                {
+
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00754"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00755"
+                }
+
+            ],
+            "QA": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00876"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00877"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00879"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00880"
+                }
+            ],
+            "PROD": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00961"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00962"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00973"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00974"
+                }
+            ]
+        },
+        {
+            "name": "03.Europe",
+            "DEV": [
+                {
+
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00761"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00762"
+                }
+            ],
+            "QA": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00870"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00871"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00872"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00873"
+                }
+            ],
+            "PROD": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00968"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00969"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00979"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00980"
+                }
+            ]
+        },
+        {
+            "name": "04.GreaterChina",
+            "users": [
+                {
+                    "environment": "DEV",
+                    "domain": "NA",
+                    "username": "MYJFAJ1",
+                    "password": "P74aj38b"
+                },
+                {
+                    "environment": "QA",
+                    "domain": "QA-NA",
+                    "username": "MYJFAJ3",
+                    "password": "P74aj38b"
+                },
+                {
+                    "environment": "PROD",
+                    "domain": "NA",
+                    "username": "MYJFAJ4",
+                    "password": "P74aj38b"
+                }
+            ],
+            "DEV": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "10.210.144.8"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "10.210.144.7"
+                }
+            ],
+            "QA": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "oldname": "10.140.15.91",
+                    "name": "10.210.68.34",
+                    "domain":"QA-NA",
+                    "username": "MYJFAJ3",
+                    "password": "P74aj38b"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "10.210.68.35",
+                    "domain":"QA-NA",
+                    "username": "MYJFAJ3",
+                    "password": "P74aj38b"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "oldname": "10.140.15.93",
+                    "name": "10.210.68.33",
+                    "domain":"QA-NA",
+                    "username": "MYJFAJ3",
+                    "password": "P74aj38b"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "10.210.68.32",
+                    "domain":"QA-NA",
+                    "username": "MYJFAJ3",
+                    "password": "P74aj38b"
+                }
+            ],
+            "PROD": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "fqdn": "CNPWS00088",
+                    "name": "10.211.7.166"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "fqdn": "CNPWS00086",
+                    "name": "10.211.7.165"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "fqdn": "CNPWS00096",
+                    "name": "10.211.7.163"
+                },
+                {
+                    "node": "01",
+                    "fqdn": "CNPWS00095",
+                    "name": "10.211.7.162"
+                }
+            ]
+        },
+                {
+            "name": "05.AsiaPacific2",
+            "DEV": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00757"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00758"
+                }
+            ],
+            "QA": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00843"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00859"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00894"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00893"
+                }
+            ],
+            "PROD": [
+                {
+                    "farm": "00",
+                    "node": "00",
+                    "name": "USNT00964"
+                },
+                {
+                    "farm": "00",
+                    "node": "01",
+                    "name": "USNT00965"
+                },
+                {
+                    "farm": "01",
+                    "node": "00",
+                    "name": "USNT00976"
+                },
+                {
+                    "farm": "01",
+                    "node": "01",
+                    "name": "USNT00977"
+                }
+            ]
+        }
+    ]
+}
